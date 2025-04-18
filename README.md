@@ -1,6 +1,6 @@
 # Boston House Price Prediction
 
-This dataset contains information about housing prices in Boston and is often used for regression analysis and predictive modeling. The dataset is based on the classic Boston Housing dataset, which is frequently used as a benchmark in machine learning.<br>
+Utilizing the Boston Housing Dataset, this project builds a machine learning model to forecast house prices. The model will learn relationships between property characteristics, location, and price, ultimately offering insights into the factors influencing real estate value in the area.
 
 # Attributes:-<br>
 **CRIM (Per Capita Crime Rate)**:- The per capita crime rate in the neighborhood.<br>
@@ -19,4 +19,5 @@ This dataset contains information about housing prices in Boston and is often us
 **MEDV (Median Value of Owner-Occupied Homes)**:- The median value of owner-occupied homes in $1000s (Target Variable).<br>
 
 # Objective:
-Predict the median value of owner-occupied homes (MEDV) based on various features to gain insights into factors influencing housing prices. 
+The model should be able to reliably predict prices for new, unseen houses, which is crucial for real-world application. Techniques like train-test splitting and cross-validation are employed to ensure the model generalizes well
+
